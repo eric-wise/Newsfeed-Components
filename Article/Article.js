@@ -2,8 +2,8 @@
 /* Look over this data, then proceed to line 91*/
 const data = [
   {
-    title: 'Lambda School Students: "We\'re the best!"',
-    date: 'Nov 5th, 2018',
+    articleTitle: 'Lambda School Students: "We\'re the best!"',
+    articleDate: 'Nov 5th, 2018',
     firstParagraph: `Lucas ipsum dolor sit amet ben twi'lek padmé darth darth darth moff hutt organa twi'lek. Ben amidala secura skywalker lando
         moff wicket tatooine luke.Solo wampa wampa calrissian yoda moff.Darth grievous darth gonk darth hutt.Darth baba skywalker
         watto fett jango maul han.Mon ewok sidious sidious lando kenobi grievous gamorrean solo.Yoda wedge utapau darth calamari.
@@ -23,8 +23,8 @@ const data = [
         moff calamari mon obi-wan. Solo grievous lando coruscant. Jinn darth palpatine obi-wan mon.`
   },
   {
-    title: 'Javascript and You, ES6',
-    date: 'May 7th, 2019',
+    articleTitle: 'Javascript and You, ES6',
+    articleDate: 'May 7th, 2019',
     firstParagraph: `Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost
         Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus. Padfoot
         snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies. Mudbloods
@@ -43,8 +43,8 @@ const data = [
         sing above the ground, Ginny Weasley bright red. Fanged frisbees, phoenix tears good clean match.`
   },
   {
-    title: 'React vs Angular vs Vue',
-    date: 'June 7th, 2019',
+    articleTitle: 'React vs Angular vs Vue',
+    articleDate: 'June 7th, 2019',
     firstParagraph: `Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet, consectetur
         adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charizard Lorem ipsum dolor sit amet,
@@ -71,8 +71,40 @@ const data = [
         Castform Lotad the power that's inside Burnt Berry Makuhita. Ghost Ariados Corphish Dusclops Golbat Gligar Zweilous.`
   },
   {
-    title: 'Professional Software Development in 2019',
-    date: 'Jan 1st, 2019',
+    articleTitle: 'Professional Software Development in 2019',
+    articleDate: 'Jan 1st, 2019',
+    firstParagraph: `Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor hodor, hodor, hodor
+          hodor. Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor; hodor HODOR hodor, hodor hodor?! Hodor hodor, hodor.
+          Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? `,
+
+    secondParagraph: `Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor hodor, hodor;
+          hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor hodor hodor! Hodor, hodor. Hodor. Hodor, HODOR
+          hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor - hodor... Hodor hodor hodor hodor hodor hodor hodor?! Hodor
+          hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor? `,
+
+    thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
+          Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
+          Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    articleTitle: 'Test 1',
+    articleDate: 'Today',
+    firstParagraph: `Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor hodor, hodor, hodor
+          hodor. Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor; hodor HODOR hodor, hodor hodor?! Hodor hodor, hodor.
+          Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? `,
+
+    secondParagraph: `Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor hodor, hodor;
+          hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor hodor hodor! Hodor, hodor. Hodor. Hodor, HODOR
+          hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor - hodor... Hodor hodor hodor hodor hodor hodor hodor?! Hodor
+          hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor? `,
+
+    thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
+          Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
+          Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    articleTitle: 'Test 2',
+    articleDate: 'Yesterday',
     firstParagraph: `Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor hodor, hodor, hodor
           hodor. Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor; hodor HODOR hodor, hodor hodor?! Hodor hodor, hodor.
           Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? `,
@@ -91,8 +123,8 @@ const data = [
 /* Step 1: Create a function that creates a component. You will want your component to look like the template below: 
   
   <div class="article">
-    <h2>{title of the article}</h2>
-    <p class="date">{date of the article}</p>
+    <h2>{articleTitle of the article}</h2>
+    <p class="articleDate">{articleDate of the article}</p>
 
     {three separate paragraph elements}
 
@@ -101,7 +133,7 @@ const data = [
 
   Hint: You will need to use createElement more than once here!
 
-  Your function should take either an object as it's one argument, or 5 separate arguments mapping to each peice of the data object above.
+  Your function should take either an elect as it's one argument, or 5 separate arguments mapping to each peice of the data elect above.
 
   Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
 
@@ -112,3 +144,55 @@ const data = [
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new artible
 
 */
+
+function createComponent(title, date, firstPara, secondPara, thirdPara) {
+  // Define new elements
+  const articles = document.querySelector('.articles');
+  const article = document.createElement('div');
+  const articleTitle = document.createElement('h2');
+  const articleDate = document.createElement('p');
+  const firstParagraph = document.createElement('p');
+  const secondParagraph = document.createElement('p');
+  const thirdParagraph = document.createElement('p');
+  const articleBtn = document.createElement('span');
+  
+  // Setup structure of elements
+  articles.appendChild(article);
+  article.appendChild(articleTitle);
+  article.appendChild(articleDate);
+  article.appendChild(articleBtn);
+  article.appendChild(firstParagraph);
+  article.appendChild(secondParagraph);
+  article.appendChild(thirdParagraph);
+
+  // Set Class Names
+  article.classList.add('article');
+  articleDate.classList.add('date');
+  articleBtn.classList.add('expandButton');
+
+  // Set Text Content
+  articleTitle.textContent = title;
+  articleDate.textContent = date;
+  firstParagraph.textContent = firstPara;
+  secondParagraph.textContent = secondPara;
+  thirdParagraph.textContent = thirdPara;
+  articleBtn.textContent = 'Expand'; 
+
+  articleBtn.addEventListener('click', () => {
+    article.classList.toggle('article-open');
+    switch(articleBtn.textContent) {
+      case "Expand":
+        articleBtn.textContent = "Close";
+        break;
+      case "Close":
+        articleBtn.textContent = "Expand";
+        break;
+    }
+  })
+
+  return article;
+}
+
+data.forEach(el => {
+  createComponent(el.articleTitle, el.articleDate, el.firstParagraph, el.secondParagraph, el.thirdParagraph)
+});
